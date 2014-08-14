@@ -18,6 +18,7 @@ override_dh_install:
 		python$$pyvers setup.py install --install-layout=deb \
 			--root $(CURDIR)/debian/python3-xstatic-jquery.tablesorter; \
 	done
+	rm -rf $(CURDIR)/debian/python*-xstatic-jquery.tablesorter/usr/lib/python*/dist-packages/xstatic/pkg/jquery_tablesorter/data/
 	rm -rf $(CURDIR)/debian/python*-xstatic-jquery.tablesorter/usr/lib/python*/dist-packages/*.pth
 
 override_dh_clean:
