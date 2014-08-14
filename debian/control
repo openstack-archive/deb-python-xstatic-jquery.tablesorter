@@ -52,7 +52,7 @@ Depends: libjs-jquery-tablesorter,
          python3-xstatic,
          ${misc:Depends},
          ${python3:Depends}
-Description: JQuery Tablesorter XStatic support - Python 2.x
+Description: JQuery Tablesorter XStatic support - Python 3.x
  XStatic is a packaging standard to package external (often 3rd party) static
  files as a Python package, so they are easily usable on all operating systems,
  with any package management system or even without one.
@@ -74,4 +74,4 @@ Description: JQuery Tablesorter XStatic support - Python 2.x
  support linux/bsd/... distribution package maintainers and even windows
  installs using the same mechanism.
  .
- This package provides JQuery Tablesorter support as a Python 2.x module.
+ This package provides JQuery Tablesorter support as a Python 3.x module.
