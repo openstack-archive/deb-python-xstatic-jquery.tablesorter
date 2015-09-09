@@ -1,8 +1,13 @@
-python-xstatic-jquery.tablesorter (2.14.5.1-1) experimental; urgency=medium
+python-xstatic-jquery.tablesorter (2.14.5.1-2) UNRELEASED; urgency=medium
 
+  [ Ivan Udovichenko ]
   * New upstream release.
 
- -- Ivan Udovichenko <iudovichenko@mirantis.com>  Mon, 07 Sep 2015 15:55:57 +0300
+  [ Thomas Goirand ]
+  * Standards-Version is now 3.9.6.
+  * Depends on libjs-* >= 2.14.5
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 09 Sep 2015 12:56:42 +0000
 
 python-xstatic-jquery.tablesorter (2.0.5b.1-1) unstable; urgency=medium
 
